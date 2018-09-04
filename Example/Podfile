@@ -1,7 +1,13 @@
+platform:ios, '9.0'
+
 use_frameworks!
 
 target 'XJHCLManager_Example' do
   pod 'XJHCLManager', :path => '../'
+  
+  pod 'Masonry', '~> 1.1.0'
+  pod 'ReactiveObjC', '~> 3.1.0'
+  pod 'MLeaksFinder', '~> 1.0.0'
 
   target 'XJHCLManager_Tests' do
     inherit! :search_paths

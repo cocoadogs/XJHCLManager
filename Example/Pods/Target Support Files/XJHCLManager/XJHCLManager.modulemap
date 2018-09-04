@@ -1,0 +1,6 @@
+framework module XJHCLManager {
+  umbrella header "XJHCLManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

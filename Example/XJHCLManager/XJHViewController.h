@@ -1,12 +1,12 @@
 //
 //  XJHViewController.h
-//  XJHCLManager
+//  XJHCLManager_Example
 //
-//  Created by cocoadogs on 09/04/2018.
-//  Copyright (c) 2018 cocoadogs. All rights reserved.
+//  Created by xujunhao on 2018/9/4.
+//  Copyright © 2018年 cocoadogs. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface XJHViewController : UIViewController
 

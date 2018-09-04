@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15025F47213E235F00B85209 /* XJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15025F46213E235F00B85209 /* XJHViewController.m */; };
+		15025F5E213E732800B85209 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15025F5D213E732800B85209 /* SecondViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* XJHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XJHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XJHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XJHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -21,7 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9EE31BF53E255C94F3B85815 /* Pods_XJHCLManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DF60745ECE4E4EE6FD762E /* Pods_XJHCLManager_Example.framework */; };
 		F45533B00B7B6712B3EDD051 /* Pods_XJHCLManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61E554A4CBA47EE7831A40D /* Pods_XJHCLManager_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45F6582C59B8B0DB65AC373C /* XJHCLManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XJHCLManager.podspec; path = ../XJHCLManager.podspec; sourceTree = "<group>"; };
+		15025F45213E235F00B85209 /* XJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHViewController.h; sourceTree = "<group>"; };
+		15025F46213E235F00B85209 /* XJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHViewController.m; sourceTree = "<group>"; };
+		15025F5C213E732800B85209 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		15025F5D213E732800B85209 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		45F6582C59B8B0DB65AC373C /* XJHCLManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XJHCLManager.podspec; path = ../XJHCLManager.podspec; sourceTree = "<group>"; };
 		48DF60745ECE4E4EE6FD762E /* Pods_XJHCLManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHCLManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		544CF40E9249433B28D70C8C /* Pods-XJHCLManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHCLManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJHCLManager_Example/Pods-XJHCLManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XJHCLManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJHCLManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,8 +54,6 @@
 		6003F59B195388D20070C39A /* XJHCLManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XJHCLManager-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* XJHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* XJHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XJHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XJHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XJHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XJHCLManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJHCLManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,11 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7640432DD334228360459978 /* Pods-XJHCLManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHCLManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJHCLManager_Tests/Pods-XJHCLManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		866CDEC65BF5078CC0529729 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		866CDEC65BF5078CC0529729 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A14E34E435818FDD9108543D /* Pods-XJHCLManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHCLManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJHCLManager_Tests/Pods-XJHCLManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A391C70EA3D85A71D3B7CF2B /* Pods-XJHCLManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJHCLManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJHCLManager_Example/Pods-XJHCLManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB362A1B4BA5C268F57031E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB362A1B4BA5C268F57031E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F61E554A4CBA47EE7831A40D /* Pods_XJHCLManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XJHCLManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,9 +135,10 @@
 			children = (
 				6003F59C195388D20070C39A /* XJHAppDelegate.h */,
 				6003F59D195388D20070C39A /* XJHAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XJHViewController.h */,
-				6003F5A6195388D20070C39A /* XJHViewController.m */,
+				15025F45213E235F00B85209 /* XJHViewController.h */,
+				15025F46213E235F00B85209 /* XJHViewController.m */,
+				15025F5C213E732800B85209 /* SecondViewController.h */,
+				15025F5D213E732800B85209 /* SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -276,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -319,10 +320,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XJHCLManager_Example/Pods-XJHCLManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
+				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/XJHCLManager/XJHCLManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XJHCLManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15025F5E213E732800B85209 /* SecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* XJHAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XJHViewController.m in Sources */,
+				15025F47213E235F00B85209 /* XJHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +498,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHCLManager/XJHCLManager-Prefix.pch";
 				INFOPLIST_FILE = "XJHCLManager/XJHCLManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XJHCLManager/XJHCLManager-Prefix.pch";
 				INFOPLIST_FILE = "XJHCLManager/XJHCLManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

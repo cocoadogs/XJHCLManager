@@ -1,0 +1,6 @@
+framework module Pods_XJHCLManager_Tests {
+  umbrella header "Pods-XJHCLManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
