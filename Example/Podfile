@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJHCLManager_Example' do
+  pod 'XJHCLManager', :path => '../'
+
+  target 'XJHCLManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
